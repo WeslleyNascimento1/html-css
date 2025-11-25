@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga commodi nihil odio, vero non quos et quod saepe veniam repellat nam nesciunt. Sed, perspiciatis adipisci accusantium hic earum error doloremque?</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium nihil vitae natus earum sequi similique voluptates assumenda perferendis expedita id aspernatur soluta consequuntur maxime quos, doloremque, nobis ratione ducimus!</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/colde-star.mp3" type="audio/mpeg">
+        <source src="midia/colde-star.ogg" type="audio/ogg">
+        <source src="midia/colde-star.wav" type="audio/wav">
+        <p>infelizmente seu navegador, não consegue reproduir audio</p>
+        <a href="midia/colde-star.mp3">Clique aqui para baixar o audio MP3.</a>
+    </audio>
+
+</body>
+</html>

@@ -38,6 +38,7 @@ menu li {
 
 article {
     width: 600px;
+    text-align: justify;
     display: block;
     margin: auto;
 }
